@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {StyleSheet, YellowBox} from 'react-native';
 
 module.exports = StyleSheet.create({
     container: {
@@ -7,6 +7,12 @@ module.exports = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center',
     },
+    recipeBox : {
+        flex: 1,
+        backgroundColor : 'yellow',
+        alignItems : 'center',
+        justifyContent : 'center'
+    }
   });
   
 
